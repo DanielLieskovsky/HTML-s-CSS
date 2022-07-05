@@ -1,0 +1,77 @@
+<!-- dat ! a kliknut enter -->
+<!DOCTYPE html>
+<!-- zmenit jazyk -->
+<html lang="sk">
+  <!-- toto su nastavenia -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- toto je nadpis stranky ktory je v tabe-->
+    <title>HTML a CSS</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <!-- marginy sa daju napisat do jedneho riadku kde idu top right bottom left-->
+    <!-- ak ma margin len dve hodnoty tak prve dve su hore dole a dalsie dve prava lava-->
+  </head>
+
+  <!-- sem pisem ako ma stranka vyzerat-->
+  <!-- h1 je najdolezitejsi nadpis h2 je menej dolezity ...-->
+  <!-- p oznacujem odstavce-->
+  <!-- lorem pre random text-->
+  <!-- ayu extension a ctrl shift p-->
+  <!-- dolezity text je cez strong a doraz je cez em-->
+  <!-- tucny text je b a kurziva je cez i-->
+  <!-- cez style (to je uz css) menim napr strong tagy a to je uz v head-->
+  <!-- vsetky tagy dokazem najst cez mdn-->
+  <!-- obrazky pridavat cez img src je zdroj a alt je keby zdroj padne-->
+  <!-- pridavat jednotlice artikle ktore mozemm potom stylovat-->
+  <!-- ol je ordered list ul je undrdered list-->
+  <!-- a element je odkaz na nieco-->
+  <!-- pokial nad nejakym odkazom budem mysou (hover) alebo prstom (active) tak zmeni farbu-->
+  <!-- div je skupina elementov alebo neurcity element (nema css scpecifikaciu)-->
+  <!-- class moze mat viacero a pristup k nim je cez .-->
+  <!-- id moze mat len jeden objekt a objekt ma len jeden id a pristup k nemu je cez #-->
+
+  <body>
+    <article>
+      <header>
+        <h1>Toto je nadpis</h1>
+        <h2>Tento nadpis je menší</h2>
+      </header>
+
+      <p title="Tajny text ktory sa zobrazuje len ked som na nom mysou">
+        Lorem ipsum dolor sit, amet
+        <storng>consectetur adipisicing</storng> elit. Officia, velit. Cum unde
+        soluta architecto nobis libero quis numquam ducimus aliquam asperiores
+        rem. Mollitia <em>harum enim</em> accusantium reiciendis minima magni
+        omnis.
+      </p>
+
+      <ol start="69" reversed>
+        <li class="highlighted">Mix flour, baking powder, sugar, and salt.</li>
+        <li>In another bowl, mix eggs, milk, and oil.</li>
+        <li>Stir both mixtures together.</li>
+        <li class="highlighted chunky">Fill muffin tray 3/4 full.</li>
+        <li>Bake for 20 minutes.</li>
+      </ol>
+
+      <!-- <ul>
+        <li>ponochále</li>
+        <li>hajzel papier</li>
+        <li>kilo muky</li>
+      </ul> -->
+
+      <p>
+        numquam illum recusandae explicabo ut veritatis, fugiat voluptatem,
+        aperiam rerum impedit ducimus,
+        <a href="https://google.com">voluptatibus</a> suscipit eius dignissimos.
+      </p>
+
+      <footer>
+        <a href="druha.html">
+          <img src="./images/index.png" alt="obrazek" />
+        </a>
+      </footer>
+    </article>
+  </body>
+</html>

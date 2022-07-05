@@ -1,0 +1,75 @@
+strong,
+h1,
+em {
+  color: orange;
+}
+
+body {
+  color: white;
+  background: rgb(49, 48, 48);
+  background: url(../images/uniza.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+article {
+  background-color: #bada55;
+  border: 1px solid #ccc;
+
+  /* margin je od okraju obrazovky*/
+  margin: 50px auto;
+
+  /* paddin je od ramceka*/
+  padding: 50px;
+
+  max-width: 420px;
+}
+
+footer img {
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  text-align: left;
+  color: #ccc;
+  font-size: 75%;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  color: #bada55;
+}
+
+footer a:hover img,
+footer a:active img {
+  border-color: #bada55;
+}
+
+.highlighted {
+  color: #bada55;
+}
+
+.chunky {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
